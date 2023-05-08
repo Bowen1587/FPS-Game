@@ -12,7 +12,8 @@ public class Sliding : MonoBehaviour
 
     [Header("Sliding")]
     public float maxSlideTime;
-    public float slideForce;
+    public float maxSlideForce;
+    private float slideForce;
     private float slideTimer;
 
     public float slideYScale;
@@ -58,11 +59,12 @@ public class Sliding : MonoBehaviour
         rb.AddForce(Vector3.down * 5f, ForceMode.Impulse);
 
         slideTimer = maxSlideTime;
+        slideForce = maxSlideForce;
     }
 
     private void SlidingMovement()
     {
-        Vector3 inputDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
+        Vector3 inputDirection = orientation.forward * verticalInput + (orientation.right * horizontalInput) * 0.01f;
 
         //sliding normal
         if(!pm.OnSlope() || rb.velocity.y > -0.1f)
@@ -79,7 +81,9 @@ public class Sliding : MonoBehaviour
             rb.AddForce(pm.GetSlopeMoveDirection(inputDirection) * slideForce, ForceMode.Force);
         }
 
-        if(slideTimer <= 0)
+        slideForce = slideForce / 1.1f;
+
+        if(slideTimer <= 0 || slideForce <= 0.0001)
             StopSlide();
     }
 
