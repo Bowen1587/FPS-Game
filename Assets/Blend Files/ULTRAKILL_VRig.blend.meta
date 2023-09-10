@@ -3,72 +3,7 @@ guid: 5de7f987b9e1f2e428e015fc7f8a5a6f
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Default OBJ.001
-    second: {fileID: 2100000, guid: ad0d5a8b046895941af62a5058acb754, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: GreenArm
-    second: {fileID: 2100000, guid: fefaaa853dc3cf641ad3ff702a4214b8, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material
-    second: {fileID: 2100000, guid: aa2672700f0cd3143bf49e34e29efd5d, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.001
-    second: {fileID: 2100000, guid: 04ea345fc7c6b1246a1e6f171835ec73, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.002
-    second: {fileID: 2100000, guid: ee26de7f21e88bb48b5a56d6014adf00, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material_001
-    second: {fileID: 2100000, guid: 99bc5daa9edd410498f0befc20fa61e7, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material__38
-    second: {fileID: 2100000, guid: 20f5aeaf758fc424bb216101fec45326, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MinosRevolver 1
-    second: {fileID: 2100000, guid: d530c2324b843624dbab4ae43bd9a998, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Nailgun
-    second: {fileID: 2100000, guid: 81ad8137327fdc348b336331b8bb36c6, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: RedArmLit
-    second: {fileID: 2100000, guid: 6e07c77ee8bc2b646a00d8a2f8aa38af, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Revolver
-    second: {fileID: 2100000, guid: 0f7b6e93d65ce954797e071053cdd56e, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Rimlight2
-    second: {fileID: 2100000, guid: 2a65a829d5f163a4785568b70a436374, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: ShotgunUnlit
-    second: {fileID: 2100000, guid: f6176adfe8528f7438c2aac3b7863b66, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
